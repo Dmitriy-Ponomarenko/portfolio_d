@@ -1,3 +1,3 @@
 // src/main.js
 
-import './js/index';
+import '/js/index';
