@@ -1,19 +1,25 @@
 .header {
-  padding: 20px;
+  padding-top: 32px;
 }
 
 .header-nav {
   display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: space-between;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+}
+
+.order-project {
+  justify-self: end;
 }
 
 .header-logo {
   display: flex;
+  align-items: center;
+  gap: 20px;
+  user-select: none;
 }
 
 .header-logo-title {
-  padding: 20px 0 0 20px;
   font-size: 21px;
   font-style: normal;
   font-weight: 600;
@@ -47,7 +53,6 @@
 
 @media screen and (min-width: 768px) {
   .header {
-    padding: 32px 48px;
   }
 }
 

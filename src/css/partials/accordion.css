@@ -1,0 +1,51 @@
+/* Accordion styles */
+.ac-menu {
+  position: relative;
+  text-align: center;
+}
+
+.menu {
+  background-color: transparent;
+  color: var(--light-purple);
+  font-size: 21px;
+  user-select: none;
+}
+
+.menu:hover {
+  color: var(--light-purple-hover);
+}
+
+.ac-menu-panel {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 0.5s ease,
+    visibility 0s linear 0.5s;
+  margin-top: 10px;
+}
+
+.ac-menu-panel.active {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.2s;
+}
+
+.ac-menu-text {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.ac-menu-text:hover,
+.ac-menu-text:focus {
+  color: var(--light-purple);
+  text-decoration-line: underline;
+}
+
+/* Accordion styles */
