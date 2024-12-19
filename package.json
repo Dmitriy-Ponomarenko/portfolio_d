@@ -12,6 +12,8 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "gh-pages": "^6.2.0",
     "glob": "^11.0.0",
     "postcss": "^8.4.49",
     "postcss-sort-media-queries": "^5.2.0",
