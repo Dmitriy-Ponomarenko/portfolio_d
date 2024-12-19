@@ -1,3 +1,5 @@
 // src/main.js
 
-import '/js/index';
+import { initializeApp } from './js/index.js';
+
+initializeApp();
