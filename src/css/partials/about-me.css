@@ -58,6 +58,10 @@
   padding: 32px;
 }
 
+.about-container-part-right {
+  user-select: none;
+}
+
 .about-container {
   margin-top: 20px;
   display: grid;

@@ -6,10 +6,16 @@
   box-sizing: border-box;
 }
 
+:root {
+  --light-purple: #dd9df6;
+  --light-purple-hover: #9f66b6;
+  --main: #1c1d20;
+}
+
 body {
   font-family: 'Inter Tight', sans-serif;
   color: #fafafa;
-  background-color: #1c1d20;
+  background-color: var(--main);
   margin: 0;
 }
 
@@ -74,6 +80,25 @@ input {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.scrollable-content {
+  overflow-y: scroll;
+  height: 90vh;
+}
+
+.scrollable-content::-webkit-scrollbar {
+  width: 12px;
+  background-color: var(--main);
+}
+
+.scrollable-content::-webkit-scrollbar-thumb {
+  background-color: var(--light-purple);
+  border-radius: 10px;
+}
+
+.scrollable-content::-webkit-scrollbar-thumb:hover {
+  background-color: var(--light-purple-hover);
 }
 
 @media screen and (min-width: 768px) {
