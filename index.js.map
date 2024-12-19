@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"index.js","sources":["../src/js/accordion.js"],"sourcesContent":["// src/js/accordion.js\n\ndocument.querySelector('.menu').addEventListener('click', () => {\n  const menuPanel = document.querySelector('.ac-menu-panel');\n  menuPanel.classList.toggle('active');\n});\n"],"names":[],"mappings":"ssBAEA,SAAS,cAAc,OAAO,EAAE,iBAAiB,QAAS,IAAM,CAC5C,SAAS,cAAc,gBAAgB,EAC/C,UAAU,OAAO,QAAQ,CACrC,CAAC"}
