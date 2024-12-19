@@ -1,0 +1,117 @@
+/* Reset styles */
+/* Common styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter Tight', sans-serif;
+  color: #fafafa;
+  background-color: #1c1d20;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  margin: 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  color: currentColor;
+  border: none;
+}
+
+input {
+  font-family: inherit;
+}
+
+.section {
+  margin: auto;
+  margin-bottom: 64px;
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 16px;
+  position: relative;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    margin-bottom: 96px;
+  }
+
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section {
+    margin-bottom: 164px;
+  }
+
+  .container {
+    max-width: 1440px;
+  }
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  background-color: transparent;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input:-webkit-autofill::first-line,
+textarea:-webkit-autofill::first-line,
+select:-webkit-autofill::first-line {
+  color: rgba(250, 250, 250, 0.6);
+}
+
+input:-webkit-autofill:hover,
+textarea:-webkit-autofill:hover,
+select:-webkit-autofill:hover {
+  color: rgba(250, 250, 250, 0.6);
+}
