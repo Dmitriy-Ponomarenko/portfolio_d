@@ -43,16 +43,13 @@
 
 .about-photo {
   border-radius: 24px;
-  max-height: 640px;
+  max-height: 500px;
   object-fit: cover;
   object-position: top;
 }
 
-.about-container {
-  gap: 16px;
-}
-
 .about-container-part {
+  min-height: 500px;
   border-radius: 24px;
 }
 
@@ -64,12 +61,22 @@
 .about-container {
   margin-top: 20px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  grid-template-columns: 1fr;
 }
 
 @media screen and (min-width: 768px) {
   .about-container-part-left {
     padding: 64px;
+  }
+
+  .about-container-part {
+    min-height: 700px;
+  }
+
+  .about-photo {
+    width: 704px;
+    min-height: 740px;
   }
 
   .about-subtitle {
@@ -79,8 +86,17 @@
   }
 }
 
-@media screen and (min-widrh: 1440px) {
+@media screen and (min-width: 1440px) {
   .about-subtitle {
     max-width: 552px;
+  }
+
+  .about-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-photo {
+    min-height: 700px;
+    max-height: 700px;
   }
 }
