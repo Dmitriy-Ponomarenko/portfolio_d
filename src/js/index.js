@@ -1,3 +1,3 @@
 // src/js/index.js
 
-import '/accordion.js';
+import './accordion.js';
