@@ -2,6 +2,7 @@
 .ac-menu {
   position: relative;
   text-align: center;
+  z-index: 999;
 }
 
 .menu {
@@ -29,6 +30,7 @@
     opacity 0.5s ease,
     visibility 0s linear 0.5s;
   margin-top: 10px;
+  z-index: 999;
 }
 
 .ac-menu-panel.active {

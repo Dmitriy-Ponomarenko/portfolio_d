@@ -10,6 +10,7 @@
 
 .order-project {
   justify-self: end;
+  z-index: 999;
 }
 
 .header-logo {
@@ -17,6 +18,7 @@
   align-items: center;
   gap: 20px;
   user-select: none;
+  z-index: 999;
 }
 
 .header-logo-title {
@@ -25,10 +27,12 @@
   font-weight: 600;
   line-height: normal;
   letter-spacing: -0.02em;
+  z-index: 999;
 }
 
 .header-logo-img {
   border-radius: 24px;
+  z-index: 999;
 }
 
 .header-button {

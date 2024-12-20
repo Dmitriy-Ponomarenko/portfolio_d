@@ -6,5 +6,6 @@
 */
 @import url('./index.css');
 @import url('./partials/header.css');
+@import url('./partials/hero.css');
 @import url('./partials/about-me.css');
 @import url('./partials/accordion.css');

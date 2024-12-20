@@ -24,23 +24,6 @@
   max-width: 279px;
 }
 
-.about-span-name {
-  color: #fff8b1;
-}
-
-.about-span,
-.about-span-age {
-  color: #ffb7b1;
-}
-
-.about-span-design {
-  color: #a4f4ff;
-}
-
-.about-span-animation {
-  color: #df94ff;
-}
-
 .about-photo {
   border-radius: 24px;
   max-height: 500px;
@@ -54,7 +37,7 @@
 }
 
 .about-container-part-left {
-  background-color: #242527;
+  background-color: var(--tabs);
   padding: 32px;
 }
 

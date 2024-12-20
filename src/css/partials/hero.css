@@ -1,0 +1,32 @@
+.hero-section {
+  margin-top: -112px;
+  padding: 0 32px 0 32px;
+}
+
+.hero-background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-section {
+  padding: 0px;
+}
+
+.hero-container {
+  position: absolute;
+  top: 50%;
+  right: 168px;
+  transform: translateY(5%);
+  background-color: var(--hero-title);
+  padding: 16px 24px;
+  border-radius: 8px;
+  max-width: 660px;
+  color: var(text-main);
+}
+
+.hero-title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.4;
+}
