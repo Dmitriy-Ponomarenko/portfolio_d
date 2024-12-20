@@ -42,7 +42,7 @@
   align-items: center;
   border-radius: 60px;
   background: #9b59b6;
-  color: #fafafa;
+  color: var(--white);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;

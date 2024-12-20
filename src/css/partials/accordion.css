@@ -40,7 +40,7 @@
 }
 
 .ac-menu-text {
-  color: #fafafa;
+  color: var(--white);
   text-decoration: none;
 }
 

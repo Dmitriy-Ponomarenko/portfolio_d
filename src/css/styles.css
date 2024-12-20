@@ -7,5 +7,11 @@
 @import url('./index.css');
 @import url('./partials/header.css');
 @import url('./partials/hero.css');
-@import url('./partials/about-me.css');
 @import url('./partials/accordion.css');
+@import url('./partials/modal.css');
+@import url('./partials/about-me.css');
+@import url('./partials/benefits.css');
+@import url('./partials/projects.css');
+@import url('./partials/faq.css');
+@import url('./partials/reviews.css');
+@import url('./partials/footer.css');

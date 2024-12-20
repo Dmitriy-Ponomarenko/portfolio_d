@@ -16,6 +16,9 @@
   --light-red: #ffb7b1;
   --light-blue: #a4f4ff;
   --light-green: #b9ffa4;
+  --white: #fafafa;
+  --content: #fafafa99;
+  --white-hover: #e5e5e5;
 }
 
 html {
@@ -24,7 +27,7 @@ html {
 
 body {
   font-family: 'Inter Tight', sans-serif;
-  color: #fafafa;
+  color: var(--white);
   background-color: var(--main);
   margin: 0;
   overflow-x: hidden;
@@ -62,6 +65,7 @@ button {
   font-family: inherit;
   color: currentColor;
   border: none;
+  padding: 0;
 }
 
 input {
@@ -71,6 +75,19 @@ input {
 .section {
   margin: auto;
   margin-bottom: 64px;
+}
+
+.section-title {
+  font-size: 28px;
+  color: #dcbdd8;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  user-select: none;
 }
 
 .container {
